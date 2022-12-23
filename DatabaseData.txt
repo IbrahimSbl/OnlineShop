@@ -1,0 +1,338 @@
+INSERT INTO `technology`(
+    `id`,
+    `productName`,
+    `refNum`,
+    `imageName`,
+    `description`,
+    `price`,
+    `discount`
+)
+VALUES(
+    NULL,
+    'MacBook Pro 15',
+    'MacBook Pro 15',
+    'appleLaptop.png',
+    'New Original Apple MacBook Pro Latest Model 16\" Retina Display Intel i7/i9 16G Memory Radeon Pro Graphic 512G/1T SSD Notebook',
+    '2999.00',
+    '0'
+),(
+    NULL,
+    'HUAWEI Mate Book 14',
+    'HUAWEI Mate Book 14',
+    'huawei Laptop1.png',
+    'HUAWEI MateBook 14 2020 14 inch laptop Ryzen 7nm R5-4600H/ R7-4800H 16G 512G PCIE SSD FHD IPS 2K touch screen ultrabook',
+    '1380.00',
+    '20'
+),(
+    NULL,
+    'HUAWEI HONOR MagicBook 15 Laptop',
+    'HUAWEI HONOR MagicBook 15 Laptop',
+    'huawei Laptop 2.png',
+    'HUAWEI HONOR MagicBook 15 Laptop 2020 Version 15.6\'\' 7nm process 16GB 512GB AMD Ryzen r5-4500U/r7-4700U Windows 10 Pro English',
+    '1089.99',
+    '0'
+),(
+    NULL,
+    'Newest Teclast F15S',
+    'Newest Teclast F15S',
+    'Laptop Teclast.png',
+    'Newest Teclast F15S 15.6 Inch Laptop Windows 10 Notebook 1920x1080 Intel Apollo Lake Laptops 8GB RAM 128GB SSD Dual Wifi HDMI',
+    '374.99',
+    '15'
+),(
+    NULL,
+    'Lenovo Xiaoxin Air',
+    'Lenovo Xiaoxin Air',
+    'Lenovo 1.png',
+    'Lenovo Xiaoxin Air 15.6 inch Laptop AMD Ryzen R7 4800U R5 4600U 512GB SSD 16GB DDR4 Windows 10 Notebook With Backlit Keyboard',
+    '969.99',
+    '0'
+),(
+    NULL,
+    'Lenovo Laptop Yangtian S550',
+    'Lenovo Laptop Yangtian S550',
+    'Lenovo 2.png',
+    '2020 Lenovo Laptop Yangtian S550 With AMD R7 4800U 16GB Ram 512GB SSD Memory Metal Body 14 Inch Backlit Screen Fingerprint',
+    '1300.00',
+    '20'
+),(
+    NULL,
+    'Original Global Huawei P40 Mobile 5G Phone',
+    'Original Global Huawei P40 Mobile 5G Phone',
+    'huawei phone1.png',
+    'Original Global Huawei P40 Mobile 5G Phone 6.1 Inches OLED Screen 422PPI 8GB +128GB ROM Smart Phone 50MP 3800mAh Kirin 990',
+    '1141.43',
+    '51'
+),(
+    NULL,
+    'Original HUAWEI Y6P 4GB+64GB Smart Phone',
+    'Original HUAWEI Y6P 4GB+64GB Smart Phone',
+    'huawei phone 2.png',
+    'Original HUAWEI Y6P 4GB+64GB Smart Phone EMUI 10.1 5000 mAh battery 6.3 inch Mobile Phone Colorful 8MP+13MP Camera Cellphone',
+    '199.99',
+    '20'
+),(
+    NULL,
+    'Authentic Original New Apple iPhone',
+    'Authentic Original New Apple iPhone',
+    'iphone 12.png',
+    'Authentic Original New Apple iPhone 12/12 Mini 5G 5.4/6.1\" Super Retina XDR Display A14 Bionic IOS 14 Smartphone Super Slim Thin',
+    '1534.00',
+    '20'
+),(
+    NULL,
+    'Authentic Original Brand New iPhone 12 Pro/Pro Max',
+    'Authentic Original Brand New iPhone 12 Pro/Pro Max',
+    'iPhone 12 pro.png',
+    'Authentic Original Brand New iPhone 12 Pro/Pro Max 5G 6.1/6.7\" XDR Display with Original Adaptor as Gift IOS 14 Smartphone',
+    '2199.00',
+    '0'
+);
+
+INSERT INTO `homeware`(
+    `id`,
+    `productName`,
+    `refNum`,
+    `imageName`,
+    `description`,
+    `price`,
+    `discount`
+)
+VALUES(
+    NULL,
+    'Philips, EasySpeed Steam and Dry Iron, 1900 Watts, Pink',
+    'philips steam Purple',
+    'philipssteam.png',
+    'Philips, EasySpeed Steam and Dry Iron, 1900 Watts, Pink<br>Philips steam iron features an ergonomic design and user friendly interface to take care of all your ironing needs. Buy this Philips iron on Souq.com.The Philips GC1018 46 EasySpeed Steam Iron speeds up your daily ironing tasks. The triple precision tip of this home appliance, which includes a button groove, pointed tip, and sleek nose, ensures enhanced performance and greater coverage. This precision tip enables you to reach even the toughest spots and tricky areas, be it around the buttons or between the pleats. Available in a pink color, the Philips GC1018/40 EasySpeed Steam Iron powers',
+    '300',
+    '10'
+),(
+    NULL,
+    'philips steam Pink',
+    'philips steam Pink',
+    'philipssteam2.png',
+    'Philips, PowerLife Steam Iron, 2300 Watts, Purple<br>For perfect results every day, you want an iron that will never disappoint you. With the SteamGlide scratch resistant plate, continuous high steam delivery and built-in salt scrubbing function, this high-quality iron has a durable performance',
+    '500',
+    '12'
+),(
+    NULL,
+    'Chopper White',
+    'Chopper White',
+    'chopper.png',
+    'Moulinex, La Moulinette Classic Chopper, 0.6 L, 700 Watts, White<br><ul>&nbsp;<li>Chops Onions, garlic, fine herbs, meat, walnuts, cheese, vegetables...</li>&nbsp;<li>1-2-3 System</li>&nbsp;<li>Bowl Capacity 200g with new blade</li>&nbsp;<li>Bowl for making sauces, guacamole, pesto etc...</li>&nbsp;<li>Capacity: 0.6 L</li>&nbsp;<li>Power: 700 W</li></ul>',
+    '520',
+    '15'
+),(
+    NULL,
+    'Moulinex White',
+    'Moulinex White',
+    'blender.png',
+    'Moulinex, Genine Blender, 2 Bowls, 450 Watts, 1.25 L, White<br><ul>&nbsp;<li>450 Watts</li>&nbsp;<li>Plastic Jar capacity: 1,5L (1.25L useful)</li>&nbsp;<li>1 speed Pulse</li>&nbsp;<li>Includes grater & grinder </li>&nbsp;<li>Comes with mix stick</li></ul>',
+    '400',
+    '20'
+),(
+    NULL,
+    'Samsung Microwave Oven',
+    'Samsung Microwave Oven',
+    'microwave.png',
+    'Samsung, Microwave Oven, 1500 Watts, 32 L, Silver<br><ul>&nbsp;<li>Three Waves are Better Than One.</li>&nbsp;<li>10 Power levels presets</li>&nbsp;<li>It has up to 32Liter of capacity in which a big bowl of pasta can easily fit in</li>&nbsp;<li>made from ceramic enamel</li></ul>',
+    '600',
+    '30'
+),(
+    NULL,
+    'Ferrari Refrigerator Orange',
+    'Ferrari Refrigerator Orange',
+    'refregerator1.png',
+    'Ferrari, Top Mount 2 Doors Refrigerator, 13 Cubic Feet, Orange<br>Retrò combines refrigeration performance with stylish look. It is at the moment available in three colors: shiny red, shiny orange and black mat. It has one shelf in the freezer compartment and 3 shelves and one vegetable crisper in the refrigerator compartment. It has a total net capacity of 208L.',
+    '4000',
+    '10'
+),(
+    NULL,
+    'LG Refrigerator Silver',
+    'LG Refrigerator Silver',
+    'LG Refregerator.png',
+    'LG, Top Mount 2 Doors Refrigerator, 24 Cubic Feet, Silver<br><dl><dt>Even Cooling in Any Time</dt><dd>Steady, even temperature in every time is core indicator to freshness. LINEAR Cooling™ makes temperature fluctuation within ±0.5℃.</dd><dt>Even & Fast Cooling in Any Where</dt><dd>LG DoorCooling+™ makes inside temperature more even and cool 35% quicker than conventional cooling system.</dd><dd>It significantly reduces the temperature gap between the inner part and the door side of the compartment.</dd><dt>99.999% Fresh Air</dt><dd>The intelligent air filter can not only remove bacteria up to 99.999%, but also minimize bad odor in the refrigerator. In addition, you can keep your food items fresher in the cleaner condition.</dd><dt>Save your time for defrosting</dt><dd>Fresh 0 Zone is controlled at temperature around 0℃ and it helps you start cooking without time-consuming.</dd></dl>',
+    '7020.99',
+    '25'
+),(
+    NULL,
+    'LG washer-dryer Machine Black',
+    'LG washer-dryer Machine Black',
+    'LG washer-dryer.png',
+    'LG, Washer & Dryer, Front Load, 10.5 / 7 KG, Black<br><ul>&nbsp;<li>AI DD</li>&nbsp;<li>TurboWash™360˚</li>&nbsp;<li>Steam</li>\r\n&nbsp;<li>Bigger Capacity</li>&nbsp;<li>SmartThinQ</li></ul>',
+    '7999.99',
+    '20'
+),(
+    NULL,
+    'Campomatic Washing Machine Black',
+    'Campomatic Washing Machine Black',
+    'washingmachine.png',
+    'Campomatic, Washing Machine, 1200 RPM, 8.5 KG, Black<br><table  class=\"table table-bordered\"><caption>Data sheet</caption><tr><th>Type</th><td>Front Load</td></tr><tr><th>Color</th><td>Black</td></tr><tr><th>Material</th><td>Stainless Steel</td></tr><tr><th>Features</th><td>110° Door Opening</td></tr><tr><th>RPM</th><td>1200</td></tr><tr><th>Dimensions</th>\r\n<td>600 x 850 x 550</td></tr><tr><th>Capacity</th><td>8 KG</td></tr><tr><th>Warranty</th><td>1 Year</td></tr></table>',
+    '4112.60',
+    '10'
+),(
+    NULL,
+    'Samsung TV 49 Inches Black',
+    'Samsung TV 49 Inches Black',
+    'sumsungTV.png',
+    'Samsung,49 Inches,4K,Smart,Curved,2 USB,3 HDMI,LED TV,Black<br>Experience the modern way to display your own personal art collection. The Frame matches your space as well as your style. An elegant complement to your home, when it’s on, it\'s an amazing television. And when it’s off, it\'s like a work of art.',
+    '3200',
+    '0'
+),(
+    NULL,
+    'Sharp LED HD TV 32 Inches Black',
+    'Sharp LED HD TV 32 Inches Black',
+    'sharpTV.png',
+    'Sharp, LED HD TV, 32 Inches, HDMI, USB, Black<br><ul><li>32inch HD ready Tv (Analog)</li><li>Audio Output – 10W(5w+5W)</li><li>Sound Reflect Design for Dynamic sound</li><li>Super Eco Mode for energy saving</li><li>Antenna Booster</li><li>Photo Frame</li><li>1 x HDMI, 1 x USB, 1 x AV - Input</li><li>Made in Malaysia </li></ul>',
+    '350.86',
+    '20'
+);
+
+
+INSERT INTO `clothes`(
+    `id`,
+    `category`,
+    `productName`,
+    `refNum`,
+    `imageName`,
+    `description`,
+    `price`,
+    `discount`
+)
+VALUES(
+    NULL,
+    'men',
+    'Heavy Cotton Oversize T Shirt',
+    'Heavy Cotton Oversize T Shirt',
+    'T-shirt5.png',
+    'High Quality Short Sleeve 100% Heavy Cotton Oversize T Shirt',
+    '4.30',
+    '0'
+),(
+    NULL,
+    'men',
+    'Print Logo T-Shirt For Men',
+    'Print Logo T-Shirt For Men',
+    'T-shirt2.png',
+    'Fashion Custom Print Logo Men\'s Fashion <br>Hoodies Casual Three Pieces',
+    '7.30',
+    '10'
+),(
+    NULL,
+    'men',
+    'China T-Shirt For Men',
+    'China T-Shirt For Men',
+    'T-shirt3.png',
+    'China t-shirt factory for men online selling cheap online clothes shopping ',
+    '7.99',
+    '20'
+),(
+    NULL,
+    'men',
+    'Black T-Shirt For Men',
+    'Black T-Shirt For Men',
+    'T-shirt1.png',
+    'Black and White Customized Clothes 95% Polyester 5% Spandex<br>Printing Causal Boys Hoodie Sets for Men',
+    '6.60',
+    '0'
+),(
+    NULL,
+    'men',
+    'sport gym t-shirt men',
+    'sport gym t-shirt men',
+    'T-shirt4.png',
+    'Wholesale custom spandex muscle dry fit running fitness workout sport gym t-shirt t shirt men',
+    '5.39',
+    '0'
+),(
+    NULL,
+    'men',
+    'Men\'s Bodybuilding Muscle T-Shirt',
+    'Men\'s Bodybuilding Muscle T-Shirt',
+    'T-Shirt6.png',
+    'Custom Slim Fit Men\'s Bodybuilding Muscle Training Workout Fitness Plain Gym T Shirt',
+    '6.99',
+    '15'
+),(
+    NULL,
+    'men',
+    'bomber jacket',
+    'bomber jacket',
+    'coat2.png',
+    'online clothes shopping down quilted bomber jacket for men',
+    '65.00',
+    '0'
+),(
+    NULL,
+    'men',
+    'men\'s winter coat',
+    'men\'s winter coat',
+    'coat3.png',
+    'men\'s winter coat from China factory wholesale clothes',
+    '65',
+    '0'
+),(
+    NULL,
+    'men',
+    'Cheap Cotton padded Jacket',
+    'Cheap Cotton padded Jacket',
+    'coat4.png',
+    'Custom Wholesale oem mens down jacket seamless Down Coat Men\'s Cheap Cotton padded Jacket',
+    '48',
+    '0'
+),(
+    NULL,
+    'woman',
+    'hip hop tshirt for woman',
+    'hip hop tshirt for woman',
+    'wtshirt1.png',
+    'custom v-neck cotton plain hip hop multicolour tie dye t shirts oversized printing tshirt women femme tops',
+    '6.60',
+    '0'
+),(
+    NULL,
+    'woman',
+    'Crew Neck Oversized Tshirt for woman',
+    'Crew Neck Oversized Tshirt for woman',
+    'wtshirt2.png',
+    'Washed Out Oversize Tee Ladies Soft Blank Vintage Crew Neck Oversized Tshirt Women',
+    '7',
+    '0'
+),(
+    NULL,
+    'woman',
+    'MGOO Cotton Soft Tshirts for woman',
+    'MGOO Cotton Soft Tshirts for woman',
+    'wtshirt3.png',
+    'MGOO Custom 100% Cotton Soft Tshirts Girls Graphic Printing Plain Hemp Crop T-shirt Women',
+    '6',
+    '10'
+),(
+    NULL,
+    'woman',
+    'Kids Summer Casual Clothes Dress',
+    'Kids Summer Casual Clothes Dress',
+    'dress1.png',
+    'China Factory Direct Sale Kids Summer Casual Clothes Dress For Girls',
+    '6.30',
+    '0'
+),(
+    NULL,
+    'woman',
+    'V-neck Long Casual Dresses',
+    'V-neck Long Casual Dresses',
+    'dress2.png',
+    'Latest Design Women Dress 2020 Sexy Woman Dresses Cheap Clothes for Women Online Shops V-neck Long Casual Dresses',
+    '7.46',
+    '0'
+),(
+    NULL,
+    'woman',
+    'wholesale Woman\'s dress',
+    'wholesale Woman\'s dress',
+    'dress3.png',
+    'clothes for wholesale online shopping womens clothes womens 2021 SC_ST20186',
+    '9',
+    '12'
+);
+

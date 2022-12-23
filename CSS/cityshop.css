@@ -1,0 +1,151 @@
+*{box-sizing:border-box;}
+main,nav,header,footer{display:block;}
+body{
+	 color:#ffffff;
+     font-family:"Arial",newroman;
+     background-color:#292930;
+	 display:block;
+}
+nav{float:left;
+	font-weight: bold;
+	padding:1em;
+	transition: all 0.3s ease 0s;
+	background-color: #2a3166;
+	width:180px;
+	display:block;
+
+}
+nav a{    
+text-decoration: none;
+text-align:center;
+font-weight:bold;
+padding:1em;
+margin-bottom:2em;
+border:3px solid #cccccc;
+display:block;
+}
+nav a:link { color:#ef9d10; }
+nav a:visited { color:gold; }
+nav a:hover { color: #0ed145; border: 3px solid #0ed145;}
+nav ul { list-style-type: none;
+         padding-left:0;
+		 }
+button{
+	background-color:blue;
+	color:white;
+	padding: 12px 25px;
+	transition: all 0.1s ease 0s; 
+	cursor: pointer;
+	border:none;
+	text-align:center;
+	border-radius: 50px;
+}
+button:hover{
+	background-color: white;
+	color:lightblue;
+}
+progress{display:block;
+         width:150px;
+		 }
+		 
+header{    
+	color:white;
+	height:120px;
+	background-color: #3b4d61;
+	background-image: url(backhead.png);
+	background-size: 550px 120px;
+	padding-top:10px;
+	border-style:inset;
+
+}
+.main-sticky-nav{
+	position:sticky;
+	top:0;
+	}
+
+
+main{
+	padding-left:2em;
+	padding-right:2em;
+	margin-left:170px;
+	transition: all 0.3s ease 0s;
+	padding-top:1em;	
+}
+h1{
+    text-align:center;
+	color:gold;
+
+}
+h2{
+	background-color:#0f2557;
+	padding-left:10px;
+	margin-top:1px;
+	color:#FFE042;
+} 
+h3{
+	background-color:#0f2557;
+	padding-left:10px;
+	margin-top:1px;
+	color:#FFE042;
+} 
+footer{
+	background-color: #6b7b8c;
+	font-size:.60em;
+	font-style: italic;
+	color:white;
+	text-align: center;
+	padding:1em;
+	margin-left:180px;
+}
+figcaption{
+	text-align:center;
+	font-family:papyrus;
+	background-color:#dcdcdc;
+	color:#000000;
+}
+
+caption{
+		background-color:#dcdcdc;
+	    color:#000000;
+}
+
+input{
+    background-color:#f9e146;
+	margin-bottom:8em;
+}
+
+label{
+	  float:left;
+      display:block;
+	  text-align:right;
+	  width:8em;
+	  padding-right:1em;
+	  }
+input,textarea{
+	          display:block;
+			  margin-bottom:1em;
+}
+textarea{background-color:#f9e146;}
+label.error{
+		  float:none;
+          position:relative; 
+		  left: 40em;
+		  top:-2em;
+		  width:25em;
+		  text-align:left;
+		  color: red;
+		  font-style:italic;
+		  font-size:.8em;
+		  font-family:Arial;
+		 }
+
+.clear{
+	clear:both;
+}
+.floatleft{
+	float:right;
+	padding-top:1px;
+}
+.center{
+	text-align:center;
+}

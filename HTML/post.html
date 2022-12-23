@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+<head>
+<title>CITY shop</title>
+<link rel="StyleSheet" href="cityshop.css" >
+<meta charset="utf-8">
+<link rel="icon" href="logo.jpg" type="image/ico">
+<style>
+
+.large{    font-size:1.5em;
+	}
+#colorgold{color:gold;}	
+input[type=text],input[type=email] {
+  border: none;
+  width:50%;
+  padding: 8px 20px;
+  margin: 8px 2px;
+  border-bottom: 2px solid red;
+}
+input[type=submit],input[type=reset]{
+    background-attachment:gold;
+	border:none;
+	padding: 8px 20px;
+	margin:8px 2px;
+	cursor:pointer;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script> 
+<script>
+	$(document).ready(function(){
+	$('form').validate(); 
+	});
+</script> 
+<script>
+function validateForm(emailtxt) {
+var value = emailtxt.value;
+var pattern = /^\w+({.-}?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+var result = value.match(pattern);
+if (result){
+return true;
+}
+return false;
+}; 
+</script>
+</head>
+<body>
+<header>
+<img src="logo.jpg" style="float:left;">
+<h1><i>CITY Shop</i></h1>
+<span class="center">
+<p><i>you'll find what you never think of</span></i></p>
+</header>
+<div class="main-sticky-nav">
+<nav>
+<ul>
+    
+	<li><a href="shop.html"> shop now</a> </li>
+	<li><a href="contact.html"> contact us</a> </li>
+	<li><a href="order.html"> order now </a></li>
+	<li><a href="about.html"> About us</a> </li>
+	<li>
+	<b><span id="colorgold">Items Selling Rate</span></b><br>
+	<progress value="4" max="10">40%</progress>Electronics<br>
+	<progress value="2" max="10">20%</progress>HomeWare <br>
+	<progress value="1" max="10">10%  </progress>Clothes <br>
+	<progress value="1" max="10"> 10% </progress>Furniture <br>
+	<progress value="1" max="10">10% </progress>Pets <br>
+	
+	</li>
+</ul>
+</nav>
+</div>
+<main>
+<span class="large">
+<h1>Companies Side</h1>
+<p>If you want to put your own product or your companies advertising <br>
+Please full the following form :   <br> 
+</p>
+<form name="contact" method="post" id="contact" action="mailto:ibrahimsbl1234@gmail.com" onsubmit="return validateForm(document.forms[0].emailtxt)">
+<fieldset>
+<legend>Contact Us</legend>
+    <label for="email">* Email:</label>
+    <input type="text" name="email" id ="emailtxt" placeholder="Email@" required="required">
+    <label for="type">Product type:</label>
+	<input type="text" name="type" id="type" placeholder="Enter product type">
+    <label for="item">Product:</label>
+	<input type="text" name="item" id="item" placeholder="Product name">
+	<label for="comments">Description:</label>
+	<textarea name="comments" id="comments" cols="30" rows="4" placeholder="Enter your product description"></textarea>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+</fieldset>
+</form>
+</span>
+</main>
+<div class="clear">
+<br>
+<br>
+<footer>
+Copyright &copy; 2021 CITY SHOP online stores<br>
+<a href="mailto:CITY.shop@gmail.com">CITY Shop</a>
+</footer>
+</div>
+
+</body>
+</html>
